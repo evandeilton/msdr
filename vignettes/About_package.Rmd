@@ -1,0 +1,14 @@
+---
+title: "A package for the assignement number four"
+author: "José Evandeilton Lopes"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# About the package msdr
+
+msdr is the abbreviation for Master Sotware Development in R. This package provides a implementation of a R based package with the functions from the assignement of the second week of the third part of the Master Software Development in R short Specialization in R provided by Cousera's team. This is for grading the last (fourth) week of the third module. The licence is GPL-3 and is in the file LICENSE.
