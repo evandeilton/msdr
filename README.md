@@ -7,8 +7,8 @@ msdr is the abbreviation for Master Sotware Development in R. This package provi
 
 Install and load the package.
 
-```{r}
-devtools::install_github('evandeilton/msdr')
+```{R}
+devtools::install_github('evandeilton/msdr', force = TRUE)
 library(msdr)
 ```
 
