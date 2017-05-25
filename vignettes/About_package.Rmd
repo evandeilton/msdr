@@ -17,5 +17,16 @@ msdr is the abbreviation for Master Sotware Development in R. This package provi
 
 This package doesn't contain any data.set, so the examples must be run with data extracted from [this link](https://d3c33hcgiwev3.cloudfront.net/_e1adac2a5f05192dc8780f3944feec13_fars_data.zip?Expires=1495843200&Signature=jLBxcSv3Gb~eS9uSRePlj8MOhvRHINIWngnllt6oYUozNLqqa1vvM2-MMsOkSErHPyWUyVxpPcI0jPoFxI3qbZhNByz6YPGe0hLEXcm0hbG6zPUnGbW2JAa2ZXjFU385U0eNteFGhAwQreAGZb5y0gDWWlExl7TBGA3nWauk4bc_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A). The user can download the data and perform testes on putting data in the directory were the R session is loaded.
 
+# Installation
 
+Install and loads the package.
+```{r}
+devtools::install_github('evandeilton/msdr')
+library(msdr)
+```
+
+# Travis Badge
+
+You can see Travis check package process by cliking this badge.
+[![Travis-CI Build Status](https://travis-ci.org/evandeilton/msdr.svg?branch=master)](https://travis-ci.org/evandeilton/msdr)
 
