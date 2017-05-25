@@ -200,7 +200,7 @@ fars_map_state <- function(state.num, year) {
 #' \dontrun{
 #'  accident_2013
 #' }
-"accident_2013"
+#' accident_2013"
 
 #' Accidents in US National Highway Traffic 2014
 #'
@@ -213,7 +213,7 @@ fars_map_state <- function(state.num, year) {
 #' \dontrun{
 #'  accident_2014
 #' }
-"accident_2014"
+#'"accident_2014"
 
 
 #' Accidents in US National Highway Traffic 2015
@@ -227,6 +227,6 @@ fars_map_state <- function(state.num, year) {
 #' \dontrun{
 #'  accident_2015
 #' }
-"accident_2015"
+#'"accident_2015"
 
 
