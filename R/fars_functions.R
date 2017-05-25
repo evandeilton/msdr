@@ -9,6 +9,11 @@
 # functions that need to be imported from external packages;
 # examples of each function's usage
 
+#####################################################
+## Global vaiables
+
+globalVariables(c("STATE", "MONTH","%>%","year","n"))
+
 #' Reads data from a file
 #' 
 #' This is a simple function to read data from .csv extension and return a tible in R.
