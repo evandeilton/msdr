@@ -24,7 +24,9 @@ This function along with \code{\link{make_filename}} and \code{\link{fars_read}}
 if any of those packages where not instaled or the arguments passed are wrong no plot ir shown.
 }
 \examples{
+\dontrun{
 state.num <- 10; year <- 2013
 fars_map_state(state.num, year)
+}
 
 }

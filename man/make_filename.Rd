@@ -22,11 +22,11 @@ the value from this function intends to be used to the function \code{\link{fars
 make sure that the file to read is in the main directory before run this function along with \code{\link{fars_read}}.
 }
 \examples{
-
+\dontrun{
 path <- "2013"
 x <- make_filename(path)
 class(x)
 head(x)
 head(fars_read(x))
-
+}
 }

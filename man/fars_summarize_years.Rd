@@ -18,10 +18,15 @@ This function to read several .csv extension files and returns a tible where eac
 \details{
 This function along with \code{\link{fars_read_years}} reads data from .csv types only receiving as param a vector or list of years by the user and returns a tible containing the row number by month and year where each row is a month and eacho column is a year passed by the user and present in the data sets. This function invokes the functions \code{\link{bind_rows}}, \code{\link{group_by}} and \code{\link{summarize}} from package \code{dplyr} and \code{\link{spread}} from \code{tidyr}.
 }
+\note{
+the tidy process require the pipe operator from package \code{tidyr}. If this package is not pre-loaded the function returns an error.
+}
 \examples{
+\dontrun{
 years <- c(2013, 2014, 2015)
 x <- fars_summarize_years(years)
 class(x)
 head(x)
+}
 
 }

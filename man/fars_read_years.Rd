@@ -18,10 +18,14 @@ This function to read several .csv extension files and returns a list of tidy fi
 \details{
 This function along with \code{\link{make_filename}}, \code{\link{fars_read}} reads data from .csv types only receiving as param a vector or list of years by the user and returns a list of tibles containing variables YEAR and MONTH present inside those data. The function \code{\link{mutate}} and \code{\link{select}} from package \code{dplyr} are used to tidy data.
 }
+\note{
+the tidy process require the pipe operator from package \code{tidyr}. If this package is not pre-loaded the function returns an error.
+}
 \examples{
-
+\dontrun{
 year <- c(2013, 2014)
 x <- fars_read_years(year)
 lapply(x, function(x) head(x, 2))
+}
 
 }

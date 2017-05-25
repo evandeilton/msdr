@@ -19,10 +19,11 @@ This is a simple function to read data from .csv extension and return a tible in
 this function read data using the function \code{\link{read_csv}} from package \code{readr}. This function is capable to read \code{csv} files compressed in .bz2 format. The next step is convert the data into a tible format by using the function \code{\link{tbl_df}} from package \code{dplyr}. If the full path is not well passed the function may crash.
 }
 \examples{
-
+\dontrun{
 path <- "accident_2013.csv.bz2"
 x <- fars_read(path)
 class(x)
 head(x)
+}
 
 }
